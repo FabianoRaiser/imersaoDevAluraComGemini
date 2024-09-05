@@ -17,6 +17,10 @@
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
     background-color: var(--cor-fundo); /* Cor de fundo da página */
+    background-image: url("/images/flag-pattern.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-blend-mode: overlay;
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
